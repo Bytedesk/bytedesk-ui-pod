@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "bytedesk-ui"
-  s.version      = "1.1.0"
+  s.version      = "1.1.1"
   s.summary      = "bytedesk.com ui lib."
 
   s.description  = <<-DESC
@@ -14,7 +14,8 @@ Pod::Spec.new do |s|
   s.author       = { "jackning" => "270580156@qq.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/pengjinning/bytedesk-ui-pod.git", :tag => "#{s.version}" }
-  s.vendored_frameworks = "frameworks/cocoapods/bytedesk-ui.framework"
+  s.source_files  = "source/*"
+  s.rescource    = ''
   s.requires_arc = true
 
   s.dependency "FMDB"
