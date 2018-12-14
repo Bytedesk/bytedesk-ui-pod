@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "bytedesk-ui"
-  s.version      = "1.1.4"
+  s.version      = "1.2.0"
   s.summary      = "bytedesk.com ui lib."
 
   s.description  = <<-DESC
@@ -23,6 +23,7 @@ Pod::Spec.new do |s|
   s.dependency "QMUIKit"
   s.dependency "M80AttributedLabel"
   s.dependency "HCSStarRatingView"
+  s.dependency "CocoaLumberjack"
   s.dependency "bytedesk-core"
   s.swift_version = "4.0"
 
