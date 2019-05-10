@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "bytedesk-ui"
-  s.version      = "1.5.9.jjldxz.com"
+  s.version      = "1.6.0"
   s.summary      = "bytedesk.com ui lib."
 
   s.description  = <<-DESC
