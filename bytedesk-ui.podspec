@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "bytedesk-ui"
-  s.version      = "2.0.0"
+  s.version      = "2.0.1"
   s.summary      = "bytedesk.com ui lib."
 
   s.description  = <<-DESC
@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "FMDB"
-  s.dependency "WCDB"
   s.dependency "MMKV"
   s.dependency "Protobuf"
   s.dependency "MQTTClient"
