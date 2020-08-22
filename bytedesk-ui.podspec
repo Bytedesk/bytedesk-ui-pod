@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://www.bytedesk.com"
   s.license      = "MIT"
   s.author       = { "jackning" => "270580156@qq.com" }
-  s.platform     = :ios, "9.0"
+  s.platform     = :ios, "10.0"
   s.source       = { :git => "https://github.com/pengjinning/bytedesk-ui-pod.git", :tag => "#{s.version}" }
   s.vendored_frameworks = "frameworks/cocoapods/bytedesk-ui.framework"
   s.requires_arc = true
