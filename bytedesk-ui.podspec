@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
   s.dependency "M80AttributedLabel"
   s.dependency "HCSStarRatingView"
   s.dependency "CocoaLumberjack"
+  s.dependency "SocketRocket", "0.5.1"
   s.dependency "bytedesk-core"
   s.swift_version = "4.0"
 
