@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "bytedesk-ui"
-  s.version      = "2.5.6"
+  s.version      = "2.5.7"
   s.summary      = "bytedesk.com ui lib."
 
   s.description  = <<-DESC
@@ -21,10 +21,7 @@ Pod::Spec.new do |s|
 
   s.dependency "FMDB"
   s.dependency "Protobuf"
-  s.dependency "MQTTClient"
-  s.dependency "MQTTClient/Websocket"
   s.dependency "SJVideoPlayer"
-  s.dependency "AFNetworking"
   s.dependency "QMUIKit"
   s.dependency "M80AttributedLabel"
   s.dependency "HCSStarRatingView"
